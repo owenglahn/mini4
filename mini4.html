@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        Please fill out all the fields and click Register.
+        <form action="mini4.php" method="post">
+            <h2>
+                User Information
+            </h2>
+            First Name: <input type="text" name="firstName" id="firstName"><br>
+
+            Last Name: <input type="text" name="lastName" id="lastName"><br>
+
+            Email: <input type="text" name="email" id="email"><br>
+
+            Phone: <input type="text" name="phone" id="phone">
+            <h2>
+                Publications
+            </h2>
+            Which book would you like information about?<br>
+            <select id="books" name="books">
+                <option value="peoples">A People's History of the United States</option>
+                <option value="manufacturing">Manufacturing Consent</option>
+                <option value="motorcycle">The Motorcycle Diaries</option>
+            </select>
+            <h2>Operating System</h2>
+            Which operating system do you have?<br>
+            <input type="radio" value="Windows" name="os">Windows
+            <input type="radio" value="Mac" name="os">Mac OS X
+            <input type="radio" value="Linux" name="os">Linux
+            <input type="radio" value="Other" name="os">Other<br>
+            <input type="submit" id="register" name="register" value="Register">
+        </form>
+    </body>
+</html>
